@@ -1,0 +1,51 @@
+.container{
+    width: 40%;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+img{
+    width: 90%;
+    height:150px;
+}
+.col{
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+}
+.card{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 5px 0;
+}
+.button-div{
+    display: flex;
+    justify-content: space-around;
+}
+.button-div button{
+    padding: 8px 15px;
+    color: white;
+    background-color: rgb(229, 83, 107);
+    border: none;
+    border-radius: 50px;
+}
+.divs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.divs .div{
+    height:30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(229, 83, 107);
+}
